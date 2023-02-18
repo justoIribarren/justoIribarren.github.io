@@ -541,6 +541,7 @@ header .abajo{
         width: 12px;
         cursor: pointer;
     }
+    .iconos{margin: 20px 60px; width: 40px;}
 }
 @media screen and (max-width:480px) {
     .flex__header{ padding: 15px 20px; }
