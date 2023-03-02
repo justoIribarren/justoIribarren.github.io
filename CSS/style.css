@@ -326,8 +326,13 @@ header .abajo{
     overflow: hidden;
     border-radius: 15px;
 }
-.proyecto__portfolio{
+.proyecto__portfolio-1{
     background-image: var(--url);
+    background-position: center;
+    background-size: 312px 175.5px;
+}
+.proyecto__portfolio-2{
+    background-image: url(../imagenes/Proyecto3.png);
     background-position: center;
     background-size: 312px 175.5px;
 }
@@ -352,12 +357,18 @@ header .abajo{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    color: #dcdcdc;
 }
 
 .proyectos__descripcion h3{
-    color: #dcdcdc;
     font-size: 15px;
     font-weight: 600;
+}
+
+.proyectos__descripcion p{
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .proyectos__boton--contenedor{
@@ -387,7 +398,6 @@ header .abajo{
 .proyectos__link{ text-decoration: none; }
 
 .proyectos__item:hover .proyectos__descripcion{
-    visibility: visible;
     opacity: 1;
     border-radius: 5px;
     transform: translateY(-300px);
