@@ -331,11 +331,7 @@ header .abajo{
     background-position: center;
     background-size: 312px 175.5px;
 }
-.proyecto__portfolio-2{
-    background-image: url(../imagenes/Proyecto3.png);
-    background-position: center;
-    background-size: 312px 175.5px;
-}
+
 .proyectos__img {
     object-fit: cover;
     display: block;
@@ -375,7 +371,8 @@ header .abajo{
     display: flex;
     flex-direction: row;
     margin-top: 15px;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 10px;
 }
 .proyectos__boton{
     display: flex;
